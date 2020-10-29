@@ -1,7 +1,14 @@
 from pathlib import Path
 
-dB = Path("DataBase")
+dB = Path('DataBase')
 
 # User Profiles
-userProfiledB = dB / "userProfile"
-userProfileFileName = userProfiledB / "userProfile.xlsx"
+userProfiledB = dB / 'userProfile'
+userProfileFileName = userProfiledB / 'userProfile.xlsx'
+
+userProfileSheet = 'userProfile'
+strategyListSheet = 'strategyList'
+
+# Trade Strategy
+tradeStrategydB = dB / 'tradeStrategy'
+stockListFileName = 'stockList.xlsx'
